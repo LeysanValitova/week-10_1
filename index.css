@@ -1,0 +1,36 @@
+.gallery {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 50vh;
+}
+
+.gallery__title {
+    font-size: 50px;
+    text-decoration: solid;
+}
+
+.gallery__img {
+    width: 30vw ;
+    margin: 10px 0 20px 0;
+    height: 35vh;
+}
+
+button {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background-color:cadetblue;
+    font-size: 15px;
+    text-decoration: solid;
+}
